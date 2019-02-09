@@ -1,0 +1,38 @@
+body {
+    font-family: Calibri;
+    background-color: #FFFFFF;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    text-align: center;
+    background-color: #77b4ff;
+    width: 250px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.textbox{
+    height: 20px;
+    padding: 3px;
+}
+
+.textbox, button{
+    width: 80px;
+    border: 2px solid #3163a0;
+
+}
+
+button{
+    height: 35px;
+    background-color:#447ec4;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 7px;
+}

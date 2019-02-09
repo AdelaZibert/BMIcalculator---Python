@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="/assets/css/style.css"/>
+</head>
+<body>
+    <div class="box">
+        <div class="content">
+            <p>
+            <h2>Welcome to BMI calculator!</h2>
+            </p>
+            <form method="post" action="/">
+                <p>Enter your height (in cm):</p>
+                <input name="h" class="textbox">
+                <p>Enter your weight (in kg):</p>
+                <input name="w" class="textbox">
+                <p><button type="submit">Calculate</button></p>
+            </form>
+            <p>
+                {{ bmi }}<br>
+                {{ weight }}
+            </p>
+        </div>
+    </div>
+</body>
+</html>
